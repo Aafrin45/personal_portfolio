@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Times New Roman, serif';
+}
+.grid-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.grid-item {
+  flex: 0 0 calc(33.333% - 20px); /* Adjust as needed for the number of columns */
+  background-color: #202731;
+  padding: 10px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  .grid-item {
+    flex: 0 0 calc(50% - 20px); /* Adjust for 2 columns on smaller screens */
+  }
+}
