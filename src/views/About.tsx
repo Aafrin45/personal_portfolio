@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 const About = () => {
   const aboutMe = "I'm a passionate web developer with a strong interest in creating user-friendly websites. I enjoy tackling challenges and collaborating with others to find solutions.";
-  const strengths = "I consider myself to be highly adaptable and open to change. In today's rapidly changing world, I find that this quality allows me to adjust to new situations with ease, enabling me to learn quickly and stay resilient in the face of challenges. I embrace change as an opportunity for personal growth and innovation, and I believe this adaptability has been a valuable asset in both my personal and professional life.";
+  const strengths = "I consider myself to be highly adaptable and open to change. In today's rapidly changing world, I find that this quality allows me to adjust to new situations with ease, enabling me to learn quickly and stay resilient in the face of challenges.";
   const weaknesses = "Struggling with anxiety or nervousness when speaking in front of a group, which can hinder effective communication.I needs improvement in project management skills.";
   return (
     <div
